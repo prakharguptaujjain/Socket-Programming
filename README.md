@@ -20,11 +20,16 @@ It can handle white spaces automatically.
 Usage Example: ```1 + 1 + 1``` or ```10*9```
 
 ## Files
-- server1.py and server2.py 
-- README.md: The documentation file. 
-- example image 
-- requirements.txt 
-- testcases.txt 
+```
+└── Socket-Programming-main
+    ├── example.png
+    ├── README.md
+    ├── requirements.txt
+    ├── server1.py
+    ├── server2.py
+    ├── SERVER_README.md
+    └── testcases.txt
+```
 
 Check Detailed working of server codes at [SERVER_README.md](SERVER_README.md)
 
