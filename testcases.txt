@@ -1,0 +1,35 @@
+[TEST1] [✓]: For server 1, we will start a single client, connect to server, and test all 4
+  arithmetic operations (+,-,*,/) with two operands each. We will check that the
+  results returned by the server to the client are correct.
+  
+[TEST2] [✓]: For server1, we will start a client, do some math operations (like TEST1), then
+  terminate the client, start a second client, and check that the second client can chat with
+  the server as well.
+  
+[TEST3] [✓]: For server 1, we will try to connect a second client when the first one is still
+  connected, and check that its socket operations fail.
+  
+[TEST4] [✓]: For server 2, we will check the correctness of arithmetic operations for a single
+  client, as in TEST1.
+  
+[TEST5] [✓]: For server2, we will test that multiple clients can simultaneously connect and
+  chat with the server correctly.
+  
+[TEST6] [✓]: For server2, we will connect a client, then connect and disconnect a second
+  client. The first client should continue to function correctly.
+  
+[TEST7] [✓]: We will test that server2 starts multiple processes for multiple clients.
+
+Additional Tests:
+
+[Add TEST1] [✓]: operations with more than 2 operands
+
+[Add TEST2] [✓]: operations with negative and floating point numbers in TEST1
+
+[Add TEST4] [✓]: operations with invalid operands in TEST1
+
+[Add TEST5] [✓]: operations with invalid operators in TEST1
+
+[Add TEST6] [✓]: operations with division by zero
+
+[Add TEST7] [✓]: operations with operators ** and %
