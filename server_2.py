@@ -35,7 +35,7 @@ class calculator:
         #Usage of the calculator
         returning_result.append(termcolor.colored("How to use?","yellow"))
         returning_result.append(termcolor.colored("Format:","yellow"))
-        returning_result.append(termcolor.colored("operand operator operand","yellow"))
+        returning_result.append(termcolor.colored("operand operator operand ...","yellow"))
         #function of each operator
         returning_result.append(termcolor.colored("Function of each operator:","yellow"))
         returning_result.append(termcolor.colored("+: Addition","yellow"))
@@ -150,7 +150,7 @@ def handle_client(client_socket, client_address):
     if not data:
         client_socket.close()
         return
-    print(decoded_data)
+
     if "help" not in decoded_data:  
         output = output + "\n" + calc.greetings
 
@@ -189,7 +189,7 @@ server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 host = ''
 port = 11004
 
-
+print(f"Server is running on port number {port}")
 #Binded the socket object to a specific network interface and port number
 server_socket.bind((host, port))
 
