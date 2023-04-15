@@ -22,14 +22,14 @@
 
 Additional Tests:
 
-[Add TEST1] [✓]: operations with more than 2 operands
+[Additional TEST1] [✓]: operations with more than 2 operands
 
-[Add TEST2] [✓]: operations with negative and floating point numbers in TEST1
+[Additional TEST2] [✓]: operations with negative and floating point numbers in TEST1
 
-[Add TEST4] [✓]: operations with invalid operands in TEST1
+[Additional TEST4] [✓]: operations with invalid operands in TEST1
 
-[Add TEST5] [✓]: operations with invalid operators in TEST1
+[Additional TEST5] [✓]: operations with invalid operators in TEST1
 
-[Add TEST6] [✓]: operations with division by zero
+[Additional TEST6] [✓]: operations with division by zero
 
-[Add TEST7] [✓]: operations with operators ** and %
+[Additional TEST7] [✓]: operations with operators ** and %
